@@ -1,0 +1,16 @@
+!HDR    PROD    VER REL IIFVER  DATE    TIME
+HDR QuickBooks 2023 for Macintosh   Version 22.0.2.570  Release R3.1    1   12/21/2023 1234567890
+!ACCNT  NAME    REFNUM  TIMESTAMP   ACCNTTYPE   OBAMOUNT    DESC    ACCNUM  SCD EXTRA
+ACCNT   BigBank Checking    5   0   BANK    "1,230.40"      10000   0   
+ACCNT   Clearing Account    1   0   BANK    1.23        10500   0   
+ACCNT   Accounts Receivable 40  0   AR  "1,234.56"  Unpaid or unapplied customer    11000   0   
+ACCNT   Undeposited Funds   43  0   OCASSET 0.00    "Funds received, but not yet d" 12000   0   UNDEPOSIT
+ACCNT   Inventory Asset 41  0   OCASSET "9,999.88"  Costs of inventory purchased    12100   0   INVENTORYASSET
+!CUST   NAME    REFNUM  TIMESTAMP   BADDR1  BADDR2  BADDR3  BADDR4  BADDR5  SADDR1  SADDR2  SADDR3  SADDR4  SADDR5  PHONE1  PHONE2  FAXNUM  EMAIL   CONT1   CONT2   CTYPE   TERMS   TAXABLE SALESTAXCODE    LIMIT   RESALENUM   REP TAXITEM NOTEPAD SALUTATION  COMPANYNAME FIRSTNAME   MIDINIT LASTNAME    CUSTFLD1    CUSTFLD2    CUSTFLD3    CUSTFLD4    CUSTFLD5    CUSTFLD6    CUSTFLD7    CUSTFLD8    CUSTFLD9    CUSTFLD10   CUSTFLD11   CUSTFLD12   CUSTFLD13   CUSTFLD14   CUSTFLD15   JOBDESC JOBTYPE JOBSTATUS   JOBSTART    JOBPROJEND  JOBEND
+CUST    Cowboy Bob's General Store    11  0   Cowboy Bob's General Store    500 Bob HWY "Houston, TX 78741"                                                              N   Non             Texas Sales Tax                                                                                             0   0/0/0   0/0/0   0/0/0
+CUST    Retail Client   4   0                                                                           Y   Tax             Texas Sales Tax                                                                                             0   0/0/0   0/0/0   0/0/0
+!VEND   NAME    REFNUM  TIMESTAMP   PRINTAS ADDR1   ADDR2   ADDR3   ADDR4   ADDR5   VTYPE   CONT1   CONT2   PHONE1  PHONE2  FAXNUM  EMAIL   NOTE    TAXID   LIMIT   TERMS   NOTEPAD SALUTATION  COMPANYNAME FIRSTNAME   MIDINIT LASTNAME    CUSTFLD1    CUSTFLD2    CUSTFLD3    CUSTFLD4    CUSTFLD5    CUSTFLD6    CUSTFLD7    CUSTFLD8    CUSTFLD9    CUSTFLD10   CUSTFLD11   CUSTFLD12   CUSTFLD13   CUSTFLD14   CUSTFLD15   1099
+VEND    Amazon  101 0                                                                                                                                                           N
+VEND    Cash    7   0                                                                                                                                                           N
+!OTHERNAME  NAME    REFNUM  TIMESTAMP   BADDR1  BADDR2  BADDR3  BADDR4  BADDR5  PHONE1  PHONE2  FAXNUM  EMAIL   CONT1   NOTEPAD SALUTATION  COMPANYNAME FIRSTNAME   MIDINIT LASTNAME
+OTHERNAME   my other account 88  0                                                               
